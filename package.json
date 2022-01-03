@@ -1,0 +1,21 @@
+{
+	"name": "learn-circleci",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./src/index.js",
+		"test": "mocha"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.2"
+	},
+	"devDependencies": {
+		"chai": "^4.3.4",
+		"mocha": "^9.1.3",
+		"request": "^2.88.2"
+	}
+}
